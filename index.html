@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Required Meta Tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="KamenCraft.tk" /> <!-- EDIT THIS ONE -->
+  <meta property="og:site_name" content="Kamen Craft" /> <!-- EDIT THIS ONE -->
+  <meta property="og:type" content="website" /> <!-- EDIT THIS ONE -->
+  <meta property="og:url" content="https://kamencraft.tk" /> <!-- EDIT THIS ONE -->
+  <meta property="og:description" content="Nový minecraft server ktorý obsahuje viac ako 3 minihry! A tu je jeho web!" /> <!-- EDIT THIS ONE -->
+  <!-- End Required Meta Tags -->
+
+  <!-- Start Title -->
+  <title>KamenCraft &mdash; Domov</title> <!-- EDIT THIS ONE -->
+  <!-- End Title -->
+
+  <!-- Start Required Links -->
+
+  <!-- https://fontawesome.com/ -->
+  <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
+  <!-- https://bulma.io/ -->
+  <link rel="stylesheet" href="/assets/css/bulma.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+  <!-- End Required Links -->
+</head>
+
+<body>
+  <!-- Start Navbar -->
+  <nav id="navbar" class="navbar fixed is-transparent" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <!-- Start Navbar Brand -->
+        <a class="navbar-item has-text-weight-bold server-name" href="/"></a>
+        <!-- End Navbar Brand -->
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+          data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <!-- Start Navbar Menu -->
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a href="/" class="navbar-item">
+            Domov
+          </a>
+          <a href="/minihry" class="navbar-item">
+            Minihry
+          </a>
+          <a href="/novinky" class="navbar-item">
+            Novinky
+          </a>
+          <a href="/obchod" class="navbar-item">
+            Obchod
+          </a>
+          <a href="/hlasovanie" class="navbar-item">
+            Hlasovanie
+          </a>
+        </div>
+        <!-- Start Navbar End -->
+        <div class="navbar-end">
+          <a id="ip-button" class="navbar-item">
+            <strong class="has-text-primary server-ip is-uppercase"></strong>
+          </a>
+        </div>
+        <!-- End Navbar End -->
+      </div>
+      <!-- End Navbar Menu -->
+    </div>
+  </nav>
+  <!-- End Navbar -->
+
+  <!-- Start Hero -->
+  <section class="hero has-background-image is-fullheight">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <!-- Start Hero Title -->
+        <p class="title is-1 has-text-white server-name"></p>
+        <!-- End Hero Title -->
+
+        <!-- Start Hero Subtitle -->
+        <p class="subtitle has-text-white">
+          Napoj sa medzi <span class="tag is-white" id="server-online-count">0</span> hráčov na <span
+            class="has-text-weight-bold server-ip"></span>
+        </p>
+        <!-- End Hero Subtitle -->
+      </div>
+    </div>
+  </section>
+  <!-- End Hero -->
+
+  <!--  Start About Section -->
+  <section class="section is-medium has-text-centered">
+    <div class="container">
+      <!-- Start About Titles  -->
+      <h1 class="title">O serveri</h1>
+      <h5 class="subtitle">Pár vecí o našom serveri</h5>
+      <!-- End About Titles -->
+      <div class="content">
+
+        <!-- Start About Icons Row 1 -->
+        <div class="columns has-huge-margin-top">
+
+          <!-- Start Icon 1 -->
+          <div class="column">
+            <div class="icon">
+              <i class="fab fa-cloudscale fa-4x has-text-primary"></i>
+            </div>
+            <div>
+              <h6 class="title is-6 has-medium-margin-top">Super rýchly</h6>
+            </div>
+          </div>
+          <!-- End Icon 1 -->
+
+          <!-- Start Icon 2 -->
+          <div class="column">
+            <div class="icon">
+              <i class="fas fa-users fa-4x has-text-primary"></i>
+            </div>
+            <div>
+              <h6 class="title is-6 has-medium-margin-top">Super komunita</h6>
+            </div>
+          </div>
+          <!-- End Icon 2 -->
+
+          <!-- Start Icon 3 -->
+          <div class="column">
+            <div class="icon">
+              <i class="fas fa-calendar-alt fa-4x has-text-primary"></i>
+            </div>
+            <div>
+              <h6 class="title is-6 has-medium-margin-top">Zábavné eventy</h6>
+            </div>
+          </div>
+          <!-- End Icon 3 -->
+
+        </div>
+        <!-- End About Icons Row 1 -->
+
+        <!-- Start About Icons Row 2 -->
+        <div class="columns has-large-margin-top">
+
+          <!-- Start Icon 4 -->
+          <div class="column">
+            <div class="icon">
+              <i class="fas fa-server fa-4x has-text-primary"></i>
+            </div>
+            <div>
+              <h6 class="title is-6 has-medium-margin-top">Bez lagov</h6>
+            </div>
+          </div>
+          <!-- End Icon 4 -->
+
+          <!-- Start Icon 5 -->
+          <div class="column">
+            <div class="icon">
+              <i class="fas fa-plug fa-4x has-text-primary"></i>
+            </div>
+            <div>
+              <h6 class="title is-6 has-medium-margin-top">Vlastné pluginy</h6>
+            </div>
+          </div>
+          <!-- End Icon 5 -->
+
+          <!-- Start Icon 6 -->
+          <div class="column">
+            <div class="icon">
+              <i class="fas fa-star fa-4x has-text-primary"></i>
+            </div>
+            <div>
+              <h6 class="title is-6 has-medium-margin-top">Proste zaujímavý</h6>
+            </div>
+          </div>
+          <!-- End Icon 6 -->
+
+        </div>
+        <!-- End About Icons Row 2 -->
+
+      </div>
+    </div>
+  </section>
+  <!-- End About Section  -->
+
+  <!-- Start Call Call To Action Banner 1 -->
+  <section class="hero has-cta-background-image ">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title has-text-white">
+          Načo čakáš?
+        </h1>
+        <h2 class="subtitle has-text-white">
+          Poď sa ku nám napojiť na adrese <strong class="has-text-white server-ip"></strong>
+        </h2>
+      </div>
+    </div>
+  </section>
+  <!-- Start Call Call To Action Banner 2 -->
+
+  <!-- Start Support The Server Section -->
+  <section class="section is-medium">
+    <div class="container has-text-centered">
+      <!-- Start Support The Server Titles -->
+      <h1 class="title">Podpor server</h1>
+      <h5 class="subtitle">Pretože nás máš rád<span class="has-text-danger">&hearts;</span>!</h5>
+      <!-- End Support The Server Titles -->
+      <div class="content">
+        <div class="columns has-huge-margin-top">
+
+          <!-- Start Support Item 1 -->
+          <div class="column">
+            <div class="card">
+              <div class="card-content">
+                <div class="content">
+                  <h3>🌴Wood VIP</h3>
+                  <p>Najlacnejšie VIP na našom serveri</p>
+                  <p>Toto VIP sa volá Wood preto, lebo je najlacnejšie. Výhody sú neporovnatelné s normálnym hráčom!</p>
+                  <p>Kúpou tohto VIP vieš podporiť celý server!</p>
+                  <h4>€1,00</h4>
+                  <a href="/obchod?package=0041641" class="button is-primary">Kúpiť teraz</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Support Item 1 -->
+
+          <!-- Start Support Item 2 -->
+          <div class="column">
+            <div class="card is-popular has-text-centered">
+              <div class="card-content">
+                <div class="content">
+                  <h3 class="has-text-white">💚Emerald VIP <span class="tag is-white">POPULÁRNE</span></h3>
+                  <p>Tretie najlepšie VIP na našom serveri</p>
+                  <p>Toto VIP má o niečo lepšie výhody ako Wood VIP! Napríklad vieš lietať na lobbyčkach, keď si streamer tak broadcastovať & viacej!</p>
+                  <p>Kúpou tohto VIP vieš podporiť celý server!</p>
+                  <h4 class="has-text-white">€2,50</h4>
+                  <a href="/obchod?package=5041647" class="button is-white">Kúpiť teraz</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="column">
+            <div class="card is-popular has-text-centered">
+              <div class="card-content">
+                <div class="content">
+                  <h3 class="has-text-white">💎Diamond VIP <span class="tag is-white">POPULÁRNE</span></h3>
+                  <p>DRUHÉ najlepšie VIP na našom serveri</p>
+                  <p>S týmto VIP vieš robiť vela vecí: Flexiť (že si diamant), lietať, broadcastovať ale aj generovať si svoj vlastný minecraft server priamo na našom serveri!</p>
+                  <p>Kúpou tohto VIP vieš podporiť celý server!</p>
+                  <h4 class="has-text-white">€3,99</h4>
+                  <a href="/obchod?package=9044842" class="button is-white">Kúpiť teraz</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Start Support Item 2 -->
+
+          <!-- Start Support Item 3 -->
+          <div class="column">
+            <div class="card has-text-centered">
+              <div class="card-content">
+                <div class="content">
+                  <h3>🖤NETHERITE VIP</h3>
+                  <p>Najlepšie VIP na našom serveri!!</p>
+                  <p>Toto VIP obsahuje vela práv, vecí ale aj príkazov ktoré nikto nevie 🤫</p>
+                  <p>Kúpou tohto VIP vieš podporiť ÚPLNE CELÝ server!</p>
+                  <h4>€5,30</h4>
+                  <a href="/obchod?package=premium+netherite_vip" class="button is-primary">Kúpiť teraz</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Start Support Item 3 -->
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Support The Server Section -->
+
+  <!-- Start Meet The Team Section -->
+  <section class="section is-light is-medium has-text-centered">
+    <div class="container">
+      <!-- Start Meet The Team Titles -->
+      <h1 class="title">Zoznám sa s našim admin teamom</h1>
+      <h5 class="subtitle">Sme milý, slubujeme!</h5>
+      <!-- End Meet The Team Titles -->
+      <div class="content">
+
+        <!-- Start Team Avatars Row 1 -->
+        <div class="columns has-large-margin-top">
+
+          <!-- Start Team Item 1 -->
+          <div class="column">
+            <img src="https://www.mc-heads.net/avatar/MagixSK" alt="Steve's head">
+            <h6 class="is-6 has-small-margin-top">Majitel <span class="has-text-weight-normal">/ MagixSK</span></h6>
+          </div>
+          <!-- End Team Item 1 -->
+
+          <!-- Start Team Item 2 -->
+          <div class="column">
+            <img src="https://www.mc-heads.net/avatar/aby8ss" alt="Steve's head">
+            <h6 class="is-6 has-small-margin-top">Spolu-Majitel <span class="has-text-weight-normal">/ aby8ss</span></h6>
+          </div>
+          <!-- End Team Item 2 -->
+
+          <!-- Start Team Item 3 -->
+          <div class="column">
+            <img src="https://www.mc-heads.net/avatar/Gaming_Maniac" alt="Steve's head">
+            <h6 class="is-6 has-small-margin-top">Spolu-Majitel <span class="has-text-weight-normal">/ Gaming_Maniac</span></h6>
+          </div>
+          <!-- End Team Item 3 -->
+
+        </div>
+        <!-- Start Team Avatars Row 1 -->
+
+        <!-- Start Team Avatars Row 2 -->
+        <div class="columns">
+
+          <!-- Start Team Item 4 -->
+          <div class="column">
+            <img src="https://www.mc-heads.net/avatar/SlidGlint7008" alt="Steve's head">
+            <h6 class="is-6 has-small-margin-top">Admin <span class="has-text-weight-normal">/ SlidGlint7008</span></h6>
+          </div>
+          <!-- End Team Item 4 -->
+
+          <!-- Start Team Item 5 -->
+          <div class="column">
+            <img src="https://www.mc-heads.net/avatar/Acronix" alt="Steve's head">
+            <h6 class="is-6 has-small-margin-top">Admin <span class="has-text-weight-normal">/ Acronix</span></h6>
+          </div>
+          <!-- End Team Item 5 -->
+
+          <!-- Start Team Item 6 -->
+          <div class="column">
+            <img src="https://www.mc-heads.net/avatar/kajkaaa_" alt="Steve's head">
+            <h6 class="is-6 has-small-margin-top">Hl. Helperka <span class="has-text-weight-normal">/ kajkaaa_</span></h6>
+          </div>
+          <div class="column">
+            <img src="https://www.mc-heads.net/avatar/erge123" alt="Steve's head">
+            <h6 class="is-6 has-small-margin-top">Hl. Builder <span class="has-text-weight-normal">/ erge123</span></h6>
+          </div>
+          <!-- End Team Item 6 -->
+
+        </div>
+        <!-- Start Team Avatars Row 2 -->
+
+      </div>
+    </div>
+  </section>
+  <!-- End Meet The Team Section -->
+
+  <!-- Start Call To Action Banner 2 -->
+  <section class="hero has-gtc-background-image ">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title has-text-white">
+          Priprav sa na..
+        </h1>
+        <h2 class="subtitle has-text-white">
+          Napojenie sa do našej <a class="has-text-primary" href="https://discord.kamencraft.tk" target="_blank">komunity</a> už dnes!
+        </h2>
+      </div>
+    </div>
+  </section>
+  <!-- End Call To Action Banner 2 -->
+
+  <!-- Start Footer -->
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>KamenCraft.tk &copy; 2022 &mdash; Všetký práva
+          vyhradené
+        </strong>
+        <br>
+        <small>
+          <span class="server-name"></span>.
+          Nie sme spojení so spoločnosťou Mojang Studios</small>
+      </p>
+      <a href="https://discord.kamencraft.tk" target="_blank">
+        <img width="50" src="https://qph.cf2.quoracdn.net/main-qimg-04e80ac829e5e6453dcc281a1fd27b72-lq" alt="Discord Logo">
+      </a>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <!-- Include Scripts -->
+  <script src="./assets/js/app.js"></script>
+
+</body>
+
+</html>
